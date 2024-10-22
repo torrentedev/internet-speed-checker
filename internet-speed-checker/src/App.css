@@ -1,0 +1,36 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* src/InternetSpeedChecker.css */
+.internet-speed-checker {
+  text-align: center;
+  padding: 20px;
+}
+
+.indicator-container {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.indicator-container h3, .indicator-container h4 {
+  margin: 10px 0;
+}
+
+
+.chart-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
