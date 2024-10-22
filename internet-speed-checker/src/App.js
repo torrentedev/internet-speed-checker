@@ -120,7 +120,8 @@ const InternetSpeedChecker = () => {
         data: speedHistory,
         fill: false,
         backgroundColor: 'rgba(75,192,192,0.4)',
-        borderColor: 'rgba(75,192,192,1)',
+        borderColor: 'rgb(75, 192, 192)',
+        tension: 0.3
       },
     ],
   };
